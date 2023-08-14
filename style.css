@@ -1,0 +1,28 @@
+:root {
+  --clr-cyan: hsl(179, 62%, 43%);
+  --clr-bright-yellow: hsl(71, 73%, 54%);
+  --clr-light-gray: hsl(204, 43%, 93%);
+  --clr-grayish-blue: hsl(218, 22%, 67%);
+
+  --fs: 15px;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+
+.body {
+  /* display: grid;
+  min-height: 100vh;
+  place-content: center;
+  background-color: red; */
+}
+
+.container {
+  /* margin: auto;
+  display: grid;
+  overflow: hidden; */
+  max-width: 1000px;
+}
+
+@media (min-width: 376px) {
+}
