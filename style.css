@@ -1,9 +1,12 @@
 :root {
   --clr-cyan: hsl(179, 62%, 43%);
+  --clr-cyan-light: hsl(178, 48%, 52%);
   --clr-bright-yellow: hsl(71, 73%, 54%);
   --clr-light-gray: hsl(204, 43%, 93%);
   --clr-grayish-blue: hsl(218, 22%, 67%);
+  --clr-white: #fff;
 
+  --ff: 'Karla', sans-serif;
   --fs: 15px;
 
   --fw-regular: 400;
@@ -15,17 +18,19 @@ body {
   min-height: 100vh;
   place-content: center;
   background-color: var(--clr-light-gray);
+  font-family: var(--ff);
+  font-weight: var(--fw-regular);
 }
 
 .container {
-  /* margin: auto;
+  margin: auto;
   display: grid;
-  overflow: hidden; */
+  overflow: hidden;
   max-width: 1000px;
 }
 
 .join {
-  background-color: #fff;
+  background-color: var(--clr-white);
 }
 
 .subscribe {
@@ -33,8 +38,8 @@ body {
 }
 
 .why {
-  background-color: hsl(178, 48%, 52%);
-  color: #fff;
+  background-color: var(--clr-cyan-light);
+  color: var(--clr-white);
 }
 
 button {
