@@ -43,6 +43,10 @@ h1 {
   margin-top: 24px;
 }
 
+.subtitle-3 {
+  padding: 25px 0;
+}
+
 .dollar {
   font-size: 32px;
   color: var(--clr-white);
@@ -52,6 +56,12 @@ h1 {
 .dollar span {
   font-size: 16px;
   font-weight: var(--fw-regular);
+  opacity: 0.5;
+}
+
+.subscribe-text {
+  color: var(--clr-white);
+  font-size: var(--fs);
 }
 
 .container {
@@ -59,19 +69,22 @@ h1 {
   display: grid;
   overflow: hidden;
   width: 362px;
-  height: 694px;
+  height: 100%;
   max-width: 1000px;
 }
 
 .join {
   background-color: var(--clr-white);
   padding: 0 24px;
+  border-radius: 5px 5px 0 0;
 }
 
 .join-text {
   color: var(--clr-grayish-blue);
   font-size: 14px;
-  margin-top: 16px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  line-height: 26px;
 }
 
 .subscribe {
@@ -85,8 +98,21 @@ h1 {
   padding: 0 24px;
 }
 
+.subscribe-list {
+  opacity: 0.75;
+  padding-bottom: 24px;
+}
+
 button {
+  margin-top: 26px;
+  margin-bottom: 24px;
   background-color: var(--clr-bright-yellow);
+  border: none;
+  border-radius: 5px;
+  color: var(--clr-white);
+  height: 48px;
+  width: 100%;
+  box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 ul {
