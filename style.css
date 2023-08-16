@@ -67,6 +67,7 @@ h1 {
 .container {
   margin: auto;
   display: grid;
+  grid-template-columns: 1fr;
   overflow: hidden;
   width: 362px;
   height: 100%;
@@ -113,6 +114,7 @@ button {
   height: 48px;
   width: 100%;
   box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 ul {
@@ -121,5 +123,14 @@ ul {
   padding: 0;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: 2fr 1fr;
+    width: 635px;
+    height: 475px;
+  }
+
+  .join {
+    grid-column: 1 / span 2;
+  }
 }
