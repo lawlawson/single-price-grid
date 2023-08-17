@@ -40,10 +40,12 @@ h1 {
   font-size: 18px;
   font-weight: var(--fw-bold);
   color: var(--clr-white);
-  margin-top: 24px;
+  margin: 20px 0;
 }
 
 .subtitle-3 {
+  font-size: 18px;
+  font-weight: var(--fw-bold);
   padding: 25px 0;
 }
 
@@ -132,5 +134,22 @@ ul {
 
   .join {
     grid-column: 1 / span 2;
+  }
+
+  .subscribe {
+    width: 317.5px;
+  }
+
+  .subscribe-text {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+
+  .why {
+    width: 317.5px;
+  }
+
+  .subtitle-2 {
+    margin: 25px 0;
   }
 }
