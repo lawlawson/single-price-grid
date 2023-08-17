@@ -13,8 +13,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -30,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/lawlawson/single-price-grid](https://github.com/lawlawson/single-price-grid)
+- Live Site URL: [https://velvety-custard-2fecd5.netlify.app/](https://velvety-custard-2fecd5.netlify.app/)
 
 ## My process
 
@@ -44,8 +42,10 @@ Users should be able to:
 
 ### What I learned
 
+Semantic HTML, CSS and working with CSS Grid on larger screen layout.
+
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [lawlawson.dev](https://lawlawson.dev/)
+- Frontend Mentor - [@lawlawson](https://www.frontendmentor.io/profile/lawlawson)
+- Twitter - [@lawsoncodes](https://twitter.com/lawsoncodes)
